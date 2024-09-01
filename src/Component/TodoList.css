@@ -1,0 +1,55 @@
+/* General List Styling */
+.list {
+  padding: 8px;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List Item Styling */
+.list li {
+  background-color: #fff;
+  width: 90%;
+  max-width: 300px;
+  color: #302b63;
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.list li:hover {
+  background-color: #f9f9f9;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Activity Span Styling */
+.activity {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35px;
+  color: blue;
+}
+
+.activity svg {
+  transition: transform 0.2s ease;
+}
+
+.activity svg:hover {
+  transform: scale(1.2);
+}
